@@ -1,0 +1,57 @@
+.competances-liste {
+    padding: 0px 0px 5px 0px;
+    border: solid 1px;
+    border-radius: 6px;
+}
+
+.competances-liste>h2 {
+    margin: 0px;
+}
+
+.competances-liste>a {
+    text-decoration: none;
+}
+
+.competances-liste>a>li {
+    list-style: none;
+    color: #000000;
+    margin: 15px 0px 15px 10px;
+    font-weight: bold;
+}
+
+.competances-liste>a>li:hover {
+    font-size: 17px;
+    transition-duration: 0.3s;
+    text-decoration: underline;
+    color: #000000;
+}
+
+.documentation-liste {
+    padding: 0px 0px 5px 0px;
+    border: solid 1px;
+    border-radius: 7px;
+}
+
+.documentation-liste>h2 {
+    margin: 0px;
+}
+
+.documentation-liste>li {
+    list-style: none;
+    margin: 15px 0px 15px 10px;
+}
+
+.sous-titre-documentation {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.div_plan_du_site>img {
+    height: 70em;
+    width: auto;
+}
+
+.div_plan_du_site {
+    text-align: center;
+}

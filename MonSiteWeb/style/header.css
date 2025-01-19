@@ -1,0 +1,113 @@
+        :root {
+            --police_ecriture_bouton_header: salsa;
+            --couleur_fond_header: #353535;
+            --couleur_bouton_en_tete: #D9D9D9;
+            --couleur_bouton_en_tete_hover: #C3C3C3;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: var(--couleur_fond_header);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-family: var(--police_ecriture_bouton_header);
+        }
+
+        #menu {
+            display: flex;
+            justify-content: center;
+        }
+
+        .bouton-menu {
+            background-color: var(--couleur_bouton_en_tete);
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            position: relative;
+        }
+
+        .bouton-menu:hover {
+            background-color: var(--couleur_bouton_en_tete_hover);
+        }
+
+        .sous-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
+
+        .bouton-menu:hover .sous-menu {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sous-menu-bouton {
+            background-color: var(--couleur_bouton_en_tete);
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .sous-menu-bouton:hover {
+            background-color: var(--couleur_bouton_en_tete_hover);
+        }
+
+        .sous-menu-projets {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 95%;
+        }
+
+        .visualisation-projets:hover .sous-menu-projets {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .bouton-projet {
+            width: 100%;
+            margin: 5px 15px;
+        }
+        
+        .sous-menu-competences {
+            display: none;
+            position: absolute;
+            top: 42%;
+            left: 95%;
+        }
+
+        .visualisation-competences:hover .sous-menu-competences {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .bouton-competence {
+            width: 100%;
+            margin: 5px 15px;
+        }
+
+        .no_margin {
+            margin: 0px;
+        }
+
+        .no_padding {
+            padding: 0px;
+        }
+
+        .arrondir_bouton_en_tete {
+            border-radius: 5px;
+        }

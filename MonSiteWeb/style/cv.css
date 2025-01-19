@@ -1,0 +1,61 @@
+        /* Styles pour la section des compétences */
+        #personal-info>p {
+            margin: 0 0 10px;
+        }
+        
+        #personal-info>p>a {
+            text-decoration: none;
+            color: #000;
+        }
+        
+        #personal-info>p>a:hover {
+            text-decoration: underline;
+            font-size: 17px;
+            transition-duration: 0.5s;
+        }
+        
+        #competence-list {
+            list-style: none;
+            padding: 0;
+            margin: 0px 0px 0px 5px;
+        }
+
+        .competence-item {
+            margin: 10px 0;
+        }
+
+        .competence-title {
+            font-weight: bold;
+        }
+
+        .competence-description {
+            margin-top: 5px;
+        }
+
+        /* Autres styles */
+        h2 {
+            color: white;
+            margin-top: 20px;
+        }
+        
+        .section_cv>h2 {
+            color: white;
+            margin-top: 0px;
+        }
+        
+        .section_cv {
+            border: solid 1px #000;
+            border-radius: 7px;
+            margin-top: 20px;
+        }
+        
+        .section_cv:hover {
+            transition-duration: 0.5s;
+            transform: scale(1.025);
+            background-color: #d9d9d9ab;
+        }
+        
+        .section_cv>ul>li {
+            margin: 10px 0px;
+        }
+        

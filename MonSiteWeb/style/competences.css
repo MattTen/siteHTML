@@ -1,0 +1,48 @@
+.sous-competances-liste {
+    padding: 0px 0px 5px 0px;
+    border: solid 1px;
+    border-radius: 6px;
+}
+
+.sous-competances-liste>h2 {
+    margin: 0px;
+}
+
+.sous-competances-liste>li {
+    list-style: none;
+    margin: 15px 0px 15px 10px;
+    font-weight: bold;
+}
+
+.projets-liste {
+    padding: 0px 0px 5px 0px;
+    border: solid 1px;
+    border-radius: 7px;
+}
+
+.projets-liste>h2 {
+    margin: 0px;
+}
+
+.projets-liste>a {
+    text-decoration: none;
+}
+
+.projets-liste>li {
+    color: #000000;
+    list-style: none;
+    margin: 15px 0px 15px 10px;
+}
+
+.projets-liste>a>li {
+    color: #000000;
+    list-style: none;
+    margin: 15px 0px 15px 10px;
+}
+
+.projets-liste>a:hover {
+    font-size: 17px;
+    transition-duration: 0.3s;
+    text-decoration: underline;
+    color: #000000;
+}
